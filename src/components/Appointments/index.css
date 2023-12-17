@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.bg-container {
+  background: linear-gradient(to top, #9796f0, #fbc7d4);
+  background-size: cover;
+  height: 80vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 40%;
+  height: 20%;
+}
+.button {
+  margin: 10px;
+  height: 10%;
+  width: 20%;
+  border-radius: 10px;
+  border: solid #000000 1px;
+  background-color: #8b5cf6;
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.separator {
+  border: solid #000000 1px;
+  margin: 2px;
+}
+.starred {
+  background-color: transparent;
+  border-radius: 15px;
+  border: solid #000000 1px;
+  color: #9897f0;
+  margin-left: 140px;
+}
+.appointments {
+  color: #171f46;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.heading-starred {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ul-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.inputs-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
